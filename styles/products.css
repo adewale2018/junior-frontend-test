@@ -1,0 +1,59 @@
+.products-main-wrapper {
+  display: flex;
+  padding: 0 15rem;
+}
+.products-first {
+  margin-top: 10rem;
+}
+.products-second .upper {
+  padding: 3.5rem;
+}
+.products-second .upper h2 {
+  color: #00AEB5;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.products-second .upper p span{
+  display: block;
+  font-size: 1.5rem;
+  margin-top: -.2rem;
+}
+.products-second .upper a {
+  text-decoration: none;
+  color: #00AEB5;
+  font-size: 1.5rem;
+}
+.products-second .lower {
+  display: flex;
+}
+.products-second .lower .card {
+  display: block;
+  height: 15.3rem;
+  width: 17.8rem;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.products-third {
+  display: flex;
+  margin-left: 7rem;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.products-third h2 {
+  font-size: 2rem;
+  color: #00AEB5;
+  margin-bottom: 1rem;
+  letter-spacing: .1rem;
+}
+.products-third p span{
+  font-size: 1.5rem;
+  display: block;
+  margin-top: -.2rem;
+}
+.left-side {
+  margin-bottom: 2rem;
+}
