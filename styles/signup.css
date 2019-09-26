@@ -1,0 +1,12 @@
+.signup header {
+  background: #fff;
+}
+.signup .header .logo {
+  color: #00AEB5;
+}
+.signup .header .signup {
+  background-color: #00AEB5;
+}
+.signup-wrapper {
+  border: 1px solid red;
+}
