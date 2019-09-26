@@ -1,0 +1,16 @@
+footer {
+  padding: 1rem 1rem 3rem 1rem;
+  border-top: 1px solid #272727;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 1rem;
+}
+.footer-right {
+  display: flex;
+}
+.footer-right i {
+  margin-left: 1rem;
+}
