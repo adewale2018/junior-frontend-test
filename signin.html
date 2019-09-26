@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/signin.css">
-    <title>Signin</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/signin.css">
+  <title>Signin</title>
+</head>
+
 <body>
-  <div class="signin">
+  <div class="main-form-wrapper">
     <header class="header">
       <div class="main-heading">
         <span class="logo">Sample</span>
@@ -26,23 +28,22 @@
         </span>
       </div>
     </header>
-    <section class="signin-wrapper">
-        <h1>Sign In to Your Account</h1>
-        <form action="">
-          <div>
-            <label for="email">Email Address</label><br>
-            <input type="text" placeholder="Email Address" required>
-          </div>
-          <div>
-            <label for="password">Password</label><br>
-            <input type="text" placeholder="Password" required>
-          </div>
-         <input type="submit" value="SIGN IN">
-        </form>
-        <p>Don't have account before? <a href="signup.html">Sign up</a></p>
-        <p class="forget-password">Forgot password?</p>
-      </section>
+    <section class="form-wrapper">
+      <h1>Sign In to Your Account</h1>
+      <form action="" method="">
+        <div>
+          <label for="email">Email Address</label><br>
+          <input type="text" placeholder="Email Address" required>
+        </div>
+        <div>
+          <label for="password">Password</label><br>
+          <input type="text" placeholder="Password" required>
+        </div>
+        <input type="submit" value="SIGN IN">
+      </form>
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+      <p class="forget-password"><a href="#">Forgot password?</a></p>
+    </section>
   </div>
-  
 </body>
 </html>
