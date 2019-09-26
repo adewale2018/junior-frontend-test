@@ -1,0 +1,32 @@
+.features {
+  margin-top: 3rem;
+  padding-bottom: 15rem;
+}
+.features-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+.features-left {
+  border: 1px solid #eee;
+  padding: 5rem 10rem 5rem 5rem;
+  box-shadow: 0px 2px 3px #ccc;
+}
+.features-left h2 {
+  color: #00AEB5;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.features-left li {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.features-left .strong {
+  font-weight: bolder;
+}
+.features-left .playstore-icon-two {
+  margin-top: 5rem;
+  margin-left: -3rem;
+}
