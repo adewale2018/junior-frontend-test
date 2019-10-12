@@ -1,7 +1,6 @@
 /* 
 colors
 #00aeb5;
-#00AEB5;
 
 */
 
@@ -21,12 +20,10 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 1.6; 
   background: #fff;
-  color: #2C3E50;
 }
 .container {
   background-color: #00AEB5;
   padding: 4rem;
-  height: 86.5vh;
 }
 .main-heading {
   display: flex;
@@ -38,9 +35,7 @@ body {
   font-size: 2.5rem;
   font-weight: 600;
 }
-nav {
-  flex: 0 0 35%;
-}
+
 
 nav ul {
   display: flex;
